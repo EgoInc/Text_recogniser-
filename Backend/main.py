@@ -6,7 +6,7 @@ def checkWord(word):
     for char in word:
 
         if not char.isalpha():
-            if char=="!":
+            if char=="!" or char="-":
                 pass
             else:
                 return False
