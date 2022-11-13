@@ -1,0 +1,56 @@
+@font-face {
+  src: url(../public/20780.ttf); 
+  font-family: 'MyfontHeader';
+}
+
+@font-face {
+  src: url(../public/common.ttf); 
+  font-family: 'Myfont';
+}
+
+.App {
+  text-align: center;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-image: url(../public/doska.jpg);
+  color: white;
+  font-family: 'Myfont';
+}
+
+textarea{
+  width: 80%;
+  height: 66%;
+  margin-bottom: 24px;
+  background-color: rgba(240, 255, 255, 0);
+  color: white;
+  font-family: 'Myfont';
+  font-size: 18px;
+}
+
+button {
+  margin: 3px;
+}
+
+h1 {
+  font-size: 39px;
+  color: white;
+  font-family: 'MyfontHeader';
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  text-align: left;
+}
+
+.container_uploader {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
